@@ -266,6 +266,7 @@ input:focus-visible {
 
 .todo-item.completed .todo-text {
   color: var(--completed-text-color);
+  text-decoration: line-through;
 }
 
 .delete-btn {
