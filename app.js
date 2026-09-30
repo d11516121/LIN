@@ -64,6 +64,7 @@ function applyTheme() {
   themeIcon.textContent = isDark ? '☀️' : '🌙';
   themeLabel.textContent = isDark ? '淺色模式' : '深色模式';
   themeToggle.setAttribute('aria-label', isDark ? '切換到淺色模式' : '切換到深色模式');
+  themeToggle.setAttribute('aria-pressed', isDark);
 }
 
 // 讀取儲存的待辦資料，若不存在則回傳空陣列

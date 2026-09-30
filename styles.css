@@ -344,10 +344,7 @@ input:focus-visible {
 
   .theme-toggle {
     padding: 7px 8px;
-  }
-
-  .theme-label {
-    display: none;
+    font-size: 0.8rem;
   }
 
   .todo-form {
